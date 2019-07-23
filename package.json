@@ -1,5 +1,6 @@
 {
-  "name": "js-h91k1a",
+  "name": "gemanepa-redux-counter",
+  "author": "gemanepa",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
