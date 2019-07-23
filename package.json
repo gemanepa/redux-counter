@@ -1,0 +1,8 @@
+{
+  "name": "js-h91k1a",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "redux": "^4.0.4"
+  }
+}
