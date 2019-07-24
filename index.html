@@ -3,23 +3,24 @@
   <head>
     <title>Redux basic example</title>
     <style>
+      * {
+        font-family: Lato;
+        font-weight: bold;
+        color: darkred;
+      }
       body {
         margin: auto;
         color: darkred;
-        font-weight: bolder;
         height: 100vh;
-        background: #23074d;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to left, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to left, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #fc4a1a;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         text-align: center;
       }
-
-      h1, p {
-        font-family: Lato;
-      }
-
+      span {color: white}
       img {height: 100px; width: auto;}
 
+      button {border-radius: 5px; background-color: #cc5333; border-color: darkred}
       button:hover {cursor: pointer}
 
       a:visited {color: darkred}
@@ -29,9 +30,9 @@
   <body>
       <h1>Pure Redux Counter</h1>
       <img src="https://stickeroid.com/uploads/pic/full/thumb/stickeroid_5bf5719e6121a.png"></img>
-      <p>
+      <h2>
         Counter: <span id="value">0</span> times
-      </p>
+      </h2>
       <button id="increment">Increment</button>
       <button id="decrement">Decrement</button>
       <br><br>
