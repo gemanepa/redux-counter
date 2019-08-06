@@ -64,7 +64,7 @@ document.getElementById('incrementAsync')
 document.getElementById('decrementAsync')
   .addEventListener('click', function () {
     setTimeout(function () {
-      store.dispatch({ type: 'INCREMENT' })
+      store.dispatch({ type: 'DECREMENT' })
     }, 3000)
   })
 
